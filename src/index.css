@@ -1,0 +1,25 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-text {
+  @apply text-[#FF014F];
+}
+
+.menu > a:active,
+.menu :nth-child(1) {
+  @apply text-[#FF014F];
+}
+
+.menu > a:hover {
+  @apply text-[#f61b5d];
+}
+.menu-sm > a {
+  @apply p-2 mt-3 bg-black shadow shadow-[#f61b5d56] rounded-3xl;
+}
+
+.nav-items {
+  @apply font-semibold text-sm menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-[calc(100vw-10px)];
+}
