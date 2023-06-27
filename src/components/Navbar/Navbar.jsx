@@ -8,7 +8,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 sticky top-0 z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label
