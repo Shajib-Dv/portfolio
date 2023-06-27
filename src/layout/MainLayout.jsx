@@ -1,6 +1,7 @@
 /** @format */
 
 import About from "../components/About/About";
+import Featured from "../components/Featured/Featured";
 import Navbar from "../components/Navbar/Navbar";
 
 const MainLayout = () => {
@@ -8,6 +9,8 @@ const MainLayout = () => {
     <>
       <Navbar />
       <About />
+      <hr />
+      <Featured />
     </>
   );
 };

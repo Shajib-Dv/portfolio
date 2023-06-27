@@ -25,9 +25,17 @@ const About = () => {
             JavaScript, React.js, Tailwind CSS, Bootstrap, MongoDB, Node.js,
             Express.js and so more Libraries.
           </p>
-          <div>
-            <h3 className="uppercase">Follow Me On</h3>
+          <h3 className="uppercase">Follow Me On</h3>
+          <div className="flex items-center justify-between">
             <SocialLink />
+            <a
+              className="p-1 md:p-3 rounded-md border-b border-b-[#FF014F] hover:text-[#f61b5d]"
+              href="https://drive.google.com/file/d/1YKkjsdR-EFDARBvDy_sk3ZNYCcjjljZ6/view?usp=view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
           </div>
         </div>
       </div>
