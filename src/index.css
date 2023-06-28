@@ -8,11 +8,6 @@
   @apply text-[#FF014F];
 }
 
-.menu > a:active,
-.menu :nth-child(1) {
-  @apply text-[#FF014F];
-}
-
 .menu > a:hover {
   @apply text-[#f61b5d];
 }
@@ -25,4 +20,8 @@
 }
 .link-txt {
   @apply btn hover:bg-[#f61b5d] capitalize;
+}
+
+.stat:hover {
+  @apply bg-base-200 transition-all rounded-md;
 }
