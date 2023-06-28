@@ -23,3 +23,6 @@
 .nav-items {
   @apply font-semibold text-sm menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-[calc(100vw-10px)];
 }
+.link-txt {
+  @apply btn hover:bg-[#f61b5d] capitalize;
+}

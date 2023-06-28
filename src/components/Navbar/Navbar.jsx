@@ -29,7 +29,7 @@ const Navbar = () => {
           )}
         </div>
         <Avatar />
-        <div className="hidden md:flex flex-col items-center justify-center">
+        <div className="hidden md:flex flex-col items-center justify-center md:pl-4">
           <h2 className="primary-text font-bold text-3xl">Shajib Hossain</h2>
           <p>Front End Web Developer</p>
         </div>
