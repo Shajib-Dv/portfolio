@@ -2,10 +2,16 @@
 
 import React from "react";
 import ReactShadowScroll from "react-shadow-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const PortfolioCard = ({ image, title, children, description }) => {
   return (
-    <div className="card w-full min-h-96 bg-base-200 rounded-lg hover:bg-base-300">
+    <div
+      data-aos="fade-up"
+      className="card w-full min-h-96 bg-base-200 rounded-lg hover:bg-base-300 overflow-x-hidden"
+    >
       <ReactShadowScroll scrollColor="#FF014F" scrollWidth={2}>
         <div className="h-80">
           <img src={image} />

@@ -1,6 +1,8 @@
 /** @format */
 
+import Footer from "../Footer/Footer";
 import About from "../components/About/About";
+import Contact from "../components/Contact/Contact";
 import Featured from "../components/Featured/Featured";
 import Navbar from "../components/Navbar/Navbar";
 import Portfolio from "../components/Portfolio/Portfolio";
@@ -16,7 +18,9 @@ const MainLayout = () => {
         <Featured />
         <Portfolio />
         <Skills />
+        <Contact />
       </div>
+      <Footer />
     </>
   );
 };
