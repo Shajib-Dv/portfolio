@@ -10,7 +10,7 @@ const Stats = () => {
             <FaBuffer className="text-7xl primary-text" />
           </div>
           <div className="stat-title text-3xl font-bold">Total Projects</div>
-          <div className="stat-value text-primary">
+          <div className="stat-value">
             <CountUp
               end={60}
               duration={5}
@@ -26,7 +26,7 @@ const Stats = () => {
             <FaCodepen className="text-7xl primary-text" />
           </div>
           <div className="stat-title text-3xl font-bold">Practice Projects</div>
-          <div className="stat-value text-secondary">
+          <div className="stat-value">
             <CountUp
               end={120}
               duration={6}

@@ -37,11 +37,15 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact">
+    <div id="contact" className="bg-base-200 py-10">
       <h2 className="text-5xl pb-4 primary-text font-bold text-center">
         Contact With Me
       </h2>
-      <form ref={form} onSubmit={sendEmail} className="md:w-3/5 mx-auto mb-20">
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="md:w-3/5 mx-auto mb-20 p-4"
+      >
         <div className="md:flex gap-4 items-center">
           <div className="form-control w-full">
             <label className="label" htmlFor="name">
@@ -70,7 +74,7 @@ const Contact = () => {
             />
           </div>
         </div>
-        <div className="form-control">
+        <div className="form-control mt-6">
           <label className="label" htmlFor="message">
             <span className="label-text">Your Message</span>
           </label>

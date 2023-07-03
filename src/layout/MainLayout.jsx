@@ -18,8 +18,8 @@ const MainLayout = () => {
         <Featured />
         <Portfolio />
         <Skills />
-        <Contact />
       </div>
+      <Contact />
       <Footer />
     </>
   );
