@@ -26,10 +26,10 @@ const About = () => {
             Express.js and so more Libraries.
           </p>
           <h3 className="uppercase">Follow Me On</h3>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <SocialLink />
             <a
-              className="p-1 md:p-3 rounded-md border-b border-b-[#FF014F] hover:text-[#f61b5d]"
+              className="p-1 md:p-3 rounded-md border-b border-b-[#FF014F] hover:text-[#f61b5d] text-center"
               href="https://drive.google.com/file/d/1YKkjsdR-EFDARBvDy_sk3ZNYCcjjljZ6/view?usp=view"
               target="_blank"
               rel="noopener noreferrer"

@@ -30,7 +30,7 @@
   @apply outline-none border-b-2 border-b-[#f61b5d] shadow shadow-[#720b2acb];
 }
 .input {
-  @apply rounded-md placeholder:text-[hsla(342,100%,50%,1)];
+  @apply rounded-md placeholder:text-[hsla(342,100%,50%,1)] bg-base-300;
 }
 .send-btn {
   @apply p-1 md:p-3 rounded-md border-b border-b-[#FF014F] hover:text-[#f61b5d] uppercase w-1/4;

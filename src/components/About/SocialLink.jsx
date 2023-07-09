@@ -1,9 +1,15 @@
 /** @format */
 
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 const SocialLink = () => {
   return (
-    <div className="flex gap-4 text-4xl mt-2">
+    <div className="flex gap-4 text-4xl mb-4 md:mb-0">
       <a
         title="FaceBook"
         href="https://www.facebook.com/shajib.hossain.dev"
@@ -27,6 +33,22 @@ const SocialLink = () => {
         rel="noopener noreferrer"
       >
         <FaGithub className="primary-text" />
+      </a>
+      <a
+        title="Whats app"
+        href=" https://wa.me/01786072025"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="primary-text" />
+      </a>
+      <a
+        title="Email"
+        href="mailto:mdsojeeb242@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaEnvelope className="primary-text" />
       </a>
     </div>
   );
