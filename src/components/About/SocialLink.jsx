@@ -36,7 +36,7 @@ const SocialLink = () => {
       </a>
       <a
         title="Whats app"
-        href=" https://wa.me/01786072025"
+        href=" https://wa.me/+8801786072025"
         target="_blank"
         rel="noopener noreferrer"
       >
