@@ -56,7 +56,7 @@ const Portfolio = () => {
             <SiteLink link={"https://github.com/Shajib-Dv/toy-zone-server"}>
               Server-Site
             </SiteLink>
-            <SiteLink link={"https://toys-zone-db156.web.app"}>
+            <SiteLink link={"https://toyz-camp.netlify.app"}>
               Live-Link
             </SiteLink>
           </PortfolioCard>
